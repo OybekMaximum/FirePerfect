@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23D7EA7505AC7C01FFC0700E /* Pods_FirePerfect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5603055F88ABD4BCFE59CF8E /* Pods_FirePerfect.framework */; };
 		AB59DF17271AD1B100B4A1B2 /* FirePerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59DF16271AD1B100B4A1B2 /* FirePerfectApp.swift */; };
 		AB59DF19271AD1B100B4A1B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59DF18271AD1B100B4A1B2 /* ContentView.swift */; };
 		AB59DF1B271AD1B200B4A1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB59DF1A271AD1B200B4A1B2 /* Assets.xcassets */; };
@@ -16,6 +17,19 @@
 		AB59DF2D271AD1B200B4A1B2 /* FirePerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59DF2C271AD1B200B4A1B2 /* FirePerfectTests.swift */; };
 		AB59DF37271AD1B200B4A1B2 /* FirePerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59DF36271AD1B200B4A1B2 /* FirePerfectUITests.swift */; };
 		AB59DF39271AD1B200B4A1B2 /* FirePerfectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59DF38271AD1B200B4A1B2 /* FirePerfectUITestsLaunchTests.swift */; };
+		AB59DF4D271AD8DD00B4A1B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB59DF4C271AD8DD00B4A1B2 /* GoogleService-Info.plist */; };
+		AB59DF50271AD9BB00B4A1B2 /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59DF4F271AD9BB00B4A1B2 /* SignInScreen.swift */; };
+		AB59DF52271AD9CA00B4A1B2 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59DF51271AD9CA00B4A1B2 /* SignUpScreen.swift */; };
+		AB59DF54271AD9D600B4A1B2 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59DF53271AD9D600B4A1B2 /* HomeScreen.swift */; };
+		AB59DF56271AD9ED00B4A1B2 /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59DF55271AD9ED00B4A1B2 /* StarterScreen.swift */; };
+		AB81DC6A271ADF81006ED50B /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB81DC69271ADF81006ED50B /* SessionStore.swift */; };
+		AB81DC6E271AE219006ED50B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB81DC6D271AE219006ED50B /* User.swift */; };
+		ABB8BDF5271BE4D600AFEAC9 /* RealTimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8BDF4271BE4D600AFEAC9 /* RealTimeStore.swift */; };
+		ABB8BDF7271BE5AB00AFEAC9 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8BDF6271BE5AB00AFEAC9 /* Contact.swift */; };
+		ABB8BDF9271BEA5A00AFEAC9 /* AddPostScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8BDF8271BEA5A00AFEAC9 /* AddPostScreen.swift */; };
+		ABB8BDFD271BFF7800AFEAC9 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8BDFC271BFF7800AFEAC9 /* ContactCell.swift */; };
+		C31D84D5A6F84AE47C70FA21 /* Pods_FirePerfect_FirePerfectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB98AAB2DCCA7862AF22E79 /* Pods_FirePerfect_FirePerfectUITests.framework */; };
+		F6064AD40AC1907DB00B7561 /* Pods_FirePerfectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FFE56A62F89CE2BCB43BAA /* Pods_FirePerfectTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D764C2926C49371A66B7AF6 /* Pods-FirePerfect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirePerfect.debug.xcconfig"; path = "Target Support Files/Pods-FirePerfect/Pods-FirePerfect.debug.xcconfig"; sourceTree = "<group>"; };
+		5603055F88ABD4BCFE59CF8E /* Pods_FirePerfect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirePerfect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56931658B32C68F139FCE1CC /* Pods-FirePerfectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirePerfectTests.debug.xcconfig"; path = "Target Support Files/Pods-FirePerfectTests/Pods-FirePerfectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8247A65FFE7DFD06700727A3 /* Pods-FirePerfect-FirePerfectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirePerfect-FirePerfectUITests.debug.xcconfig"; path = "Target Support Files/Pods-FirePerfect-FirePerfectUITests/Pods-FirePerfect-FirePerfectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92FFE56A62F89CE2BCB43BAA /* Pods_FirePerfectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirePerfectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9577A910C658898AB54645AB /* Pods-FirePerfect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirePerfect.release.xcconfig"; path = "Target Support Files/Pods-FirePerfect/Pods-FirePerfect.release.xcconfig"; sourceTree = "<group>"; };
 		AB59DF13271AD1B100B4A1B2 /* FirePerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirePerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB59DF16271AD1B100B4A1B2 /* FirePerfectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirePerfectApp.swift; sourceTree = "<group>"; };
 		AB59DF18271AD1B100B4A1B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +68,20 @@
 		AB59DF32271AD1B200B4A1B2 /* FirePerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirePerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB59DF36271AD1B200B4A1B2 /* FirePerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirePerfectUITests.swift; sourceTree = "<group>"; };
 		AB59DF38271AD1B200B4A1B2 /* FirePerfectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirePerfectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB59DF4C271AD8DD00B4A1B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB59DF4F271AD9BB00B4A1B2 /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
+		AB59DF51271AD9CA00B4A1B2 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		AB59DF53271AD9D600B4A1B2 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		AB59DF55271AD9ED00B4A1B2 /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
+		AB81DC69271ADF81006ED50B /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		AB81DC6D271AE219006ED50B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ABB8BDF4271BE4D600AFEAC9 /* RealTimeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeStore.swift; sourceTree = "<group>"; };
+		ABB8BDF6271BE5AB00AFEAC9 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		ABB8BDF8271BEA5A00AFEAC9 /* AddPostScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostScreen.swift; sourceTree = "<group>"; };
+		ABB8BDFC271BFF7800AFEAC9 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		CDB98AAB2DCCA7862AF22E79 /* Pods_FirePerfect_FirePerfectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirePerfect_FirePerfectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B721922E5ACEFC322144C8 /* Pods-FirePerfect-FirePerfectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirePerfect-FirePerfectUITests.release.xcconfig"; path = "Target Support Files/Pods-FirePerfect-FirePerfectUITests/Pods-FirePerfect-FirePerfectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F51BF9BE6A0E449B5BA372BD /* Pods-FirePerfectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirePerfectTests.release.xcconfig"; path = "Target Support Files/Pods-FirePerfectTests/Pods-FirePerfectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D7EA7505AC7C01FFC0700E /* Pods_FirePerfect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6064AD40AC1907DB00B7561 /* Pods_FirePerfectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31D84D5A6F84AE47C70FA21 /* Pods_FirePerfect_FirePerfectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +119,8 @@
 				AB59DF2B271AD1B200B4A1B2 /* FirePerfectTests */,
 				AB59DF35271AD1B200B4A1B2 /* FirePerfectUITests */,
 				AB59DF14271AD1B100B4A1B2 /* Products */,
+				BEB0EE895E706A7F86953315 /* Pods */,
+				EBDD839ABF2E03DBB518B56C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +137,15 @@
 		AB59DF15271AD1B100B4A1B2 /* FirePerfect */ = {
 			isa = PBXGroup;
 			children = (
+				ABB8BDFB271BFF6100AFEAC9 /* cell */,
+				AB81DC6C271ADFE6006ED50B /* model */,
+				AB59DF57271ADC6000B4A1B2 /* network */,
+				AB59DF4E271AD99A00B4A1B2 /* AllScreens */,
 				AB59DF16271AD1B100B4A1B2 /* FirePerfectApp.swift */,
-				AB59DF18271AD1B100B4A1B2 /* ContentView.swift */,
-				AB59DF1A271AD1B200B4A1B2 /* Assets.xcassets */,
 				AB59DF1F271AD1B200B4A1B2 /* Persistence.swift */,
 				AB59DF21271AD1B200B4A1B2 /* FirePerfect.xcdatamodeld */,
+				AB59DF4C271AD8DD00B4A1B2 /* GoogleService-Info.plist */,
+				AB59DF45271AD28500B4A1B2 /* app Utlls */,
 				AB59DF1C271AD1B200B4A1B2 /* Preview Content */,
 			);
 			path = FirePerfect;
@@ -133,6 +176,76 @@
 			path = FirePerfectUITests;
 			sourceTree = "<group>";
 		};
+		AB59DF45271AD28500B4A1B2 /* app Utlls */ = {
+			isa = PBXGroup;
+			children = (
+				AB59DF1A271AD1B200B4A1B2 /* Assets.xcassets */,
+				AB59DF18271AD1B100B4A1B2 /* ContentView.swift */,
+			);
+			path = "app Utlls";
+			sourceTree = "<group>";
+		};
+		AB59DF4E271AD99A00B4A1B2 /* AllScreens */ = {
+			isa = PBXGroup;
+			children = (
+				AB59DF4F271AD9BB00B4A1B2 /* SignInScreen.swift */,
+				AB59DF51271AD9CA00B4A1B2 /* SignUpScreen.swift */,
+				AB59DF53271AD9D600B4A1B2 /* HomeScreen.swift */,
+				AB59DF55271AD9ED00B4A1B2 /* StarterScreen.swift */,
+				ABB8BDF8271BEA5A00AFEAC9 /* AddPostScreen.swift */,
+			);
+			path = AllScreens;
+			sourceTree = "<group>";
+		};
+		AB59DF57271ADC6000B4A1B2 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				AB81DC69271ADF81006ED50B /* SessionStore.swift */,
+				ABB8BDF4271BE4D600AFEAC9 /* RealTimeStore.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		AB81DC6C271ADFE6006ED50B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AB81DC6D271AE219006ED50B /* User.swift */,
+				ABB8BDF6271BE5AB00AFEAC9 /* Contact.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		ABB8BDFB271BFF6100AFEAC9 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8BDFC271BFF7800AFEAC9 /* ContactCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		BEB0EE895E706A7F86953315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D764C2926C49371A66B7AF6 /* Pods-FirePerfect.debug.xcconfig */,
+				9577A910C658898AB54645AB /* Pods-FirePerfect.release.xcconfig */,
+				8247A65FFE7DFD06700727A3 /* Pods-FirePerfect-FirePerfectUITests.debug.xcconfig */,
+				E2B721922E5ACEFC322144C8 /* Pods-FirePerfect-FirePerfectUITests.release.xcconfig */,
+				56931658B32C68F139FCE1CC /* Pods-FirePerfectTests.debug.xcconfig */,
+				F51BF9BE6A0E449B5BA372BD /* Pods-FirePerfectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EBDD839ABF2E03DBB518B56C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5603055F88ABD4BCFE59CF8E /* Pods_FirePerfect.framework */,
+				CDB98AAB2DCCA7862AF22E79 /* Pods_FirePerfect_FirePerfectUITests.framework */,
+				92FFE56A62F89CE2BCB43BAA /* Pods_FirePerfectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB59DF3C271AD1B200B4A1B2 /* Build configuration list for PBXNativeTarget "FirePerfect" */;
 			buildPhases = (
+				4577280D077A80C1B2A88A75 /* [CP] Check Pods Manifest.lock */,
 				AB59DF0F271AD1B100B4A1B2 /* Sources */,
 				AB59DF10271AD1B100B4A1B2 /* Frameworks */,
 				AB59DF11271AD1B100B4A1B2 /* Resources */,
+				CA809D9B91788EA1EB659994 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB59DF3F271AD1B200B4A1B2 /* Build configuration list for PBXNativeTarget "FirePerfectTests" */;
 			buildPhases = (
+				DCAB8779CD4D4F99FB271D6C /* [CP] Check Pods Manifest.lock */,
 				AB59DF24271AD1B200B4A1B2 /* Sources */,
 				AB59DF25271AD1B200B4A1B2 /* Frameworks */,
 				AB59DF26271AD1B200B4A1B2 /* Resources */,
@@ -175,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB59DF42271AD1B200B4A1B2 /* Build configuration list for PBXNativeTarget "FirePerfectUITests" */;
 			buildPhases = (
+				1D6D42EC6E2863968039BB9C /* [CP] Check Pods Manifest.lock */,
 				AB59DF2E271AD1B200B4A1B2 /* Sources */,
 				AB59DF2F271AD1B200B4A1B2 /* Frameworks */,
 				AB59DF30271AD1B200B4A1B2 /* Resources */,
+				1A1A6D0D432F78F4FAB6BD02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,6 +357,7 @@
 			files = (
 				AB59DF1E271AD1B200B4A1B2 /* Preview Assets.xcassets in Resources */,
 				AB59DF1B271AD1B200B4A1B2 /* Assets.xcassets in Resources */,
+				AB59DF4D271AD8DD00B4A1B2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,15 +377,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A1A6D0D432F78F4FAB6BD02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirePerfect-FirePerfectUITests/Pods-FirePerfect-FirePerfectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirePerfect-FirePerfectUITests/Pods-FirePerfect-FirePerfectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirePerfect-FirePerfectUITests/Pods-FirePerfect-FirePerfectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D6D42EC6E2863968039BB9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirePerfect-FirePerfectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4577280D077A80C1B2A88A75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirePerfect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA809D9B91788EA1EB659994 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirePerfect/Pods-FirePerfect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirePerfect/Pods-FirePerfect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirePerfect/Pods-FirePerfect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCAB8779CD4D4F99FB271D6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirePerfectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB59DF0F271AD1B100B4A1B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB8BDF9271BEA5A00AFEAC9 /* AddPostScreen.swift in Sources */,
+				ABB8BDF7271BE5AB00AFEAC9 /* Contact.swift in Sources */,
 				AB59DF20271AD1B200B4A1B2 /* Persistence.swift in Sources */,
+				AB59DF50271AD9BB00B4A1B2 /* SignInScreen.swift in Sources */,
+				AB59DF54271AD9D600B4A1B2 /* HomeScreen.swift in Sources */,
+				AB59DF56271AD9ED00B4A1B2 /* StarterScreen.swift in Sources */,
 				AB59DF19271AD1B100B4A1B2 /* ContentView.swift in Sources */,
+				AB81DC6A271ADF81006ED50B /* SessionStore.swift in Sources */,
 				AB59DF17271AD1B100B4A1B2 /* FirePerfectApp.swift in Sources */,
 				AB59DF23271AD1B200B4A1B2 /* FirePerfect.xcdatamodeld in Sources */,
+				AB81DC6E271AE219006ED50B /* User.swift in Sources */,
+				AB59DF52271AD9CA00B4A1B2 /* SignUpScreen.swift in Sources */,
+				ABB8BDFD271BFF7800AFEAC9 /* ContactCell.swift in Sources */,
+				ABB8BDF5271BE4D600AFEAC9 /* RealTimeStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +653,7 @@
 		};
 		AB59DF3D271AD1B200B4A1B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D764C2926C49371A66B7AF6 /* Pods-FirePerfect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +683,7 @@
 		};
 		AB59DF3E271AD1B200B4A1B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9577A910C658898AB54645AB /* Pods-FirePerfect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +713,7 @@
 		};
 		AB59DF40271AD1B200B4A1B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56931658B32C68F139FCE1CC /* Pods-FirePerfectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +738,7 @@
 		};
 		AB59DF41271AD1B200B4A1B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51BF9BE6A0E449B5BA372BD /* Pods-FirePerfectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +763,7 @@
 		};
 		AB59DF43271AD1B200B4A1B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8247A65FFE7DFD06700727A3 /* Pods-FirePerfect-FirePerfectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +786,7 @@
 		};
 		AB59DF44271AD1B200B4A1B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B721922E5ACEFC322144C8 /* Pods-FirePerfect-FirePerfectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
