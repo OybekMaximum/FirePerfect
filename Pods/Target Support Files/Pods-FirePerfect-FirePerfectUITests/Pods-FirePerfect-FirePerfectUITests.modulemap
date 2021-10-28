@@ -1,0 +1,6 @@
+framework module Pods_FirePerfect_FirePerfectUITests {
+  umbrella header "Pods-FirePerfect-FirePerfectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
