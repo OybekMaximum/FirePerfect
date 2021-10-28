@@ -4,13 +4,14 @@ import Firebase
 import FirebaseDatabase
 
 class RealtimeStore: ObservableObject {
-    var ref: DatabaseReference = Database.database().reference(withPath: "posts")
+    
+    var ref: DatabaseReference = Database.database().reference(withPath: "contacts")
     
     @Published var items: [Contact] = []
     
     func storePost(contact: Contact, completion: @escaping (_ success: Bool) -> ()) {
         var success = true
-        let toBePosted = ["Firstname": contact.firstname!, "Lastname": contact.lastname!, "Phone": contact.phone!]
+        let toBePosted = ["firstname": contact.firstname!, "lastname": contact.lastname!, "phone": contact.phone!]
         
         ref.childByAutoId().setValue(toBePosted){ (error, ref) -> Void in
             if error != nil{

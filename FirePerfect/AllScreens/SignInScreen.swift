@@ -10,7 +10,7 @@ import SwiftUI
 struct SignInScreen: View {
     @EnvironmentObject var session: SessionStore
     @State var email = "treyktoriya@gmail.com"
-    @State var password = "oybek1234"
+    @State var password = "Oybek1234"
     @State var isLoading = false
     
     func doSignIn(){

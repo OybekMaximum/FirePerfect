@@ -138,9 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				ABB8BDFB271BFF6100AFEAC9 /* cell */,
+				AB59DF4E271AD99A00B4A1B2 /* AllScreens */,
 				AB81DC6C271ADFE6006ED50B /* model */,
 				AB59DF57271ADC6000B4A1B2 /* network */,
-				AB59DF4E271AD99A00B4A1B2 /* AllScreens */,
 				AB59DF16271AD1B100B4A1B2 /* FirePerfectApp.swift */,
 				AB59DF1F271AD1B200B4A1B2 /* Persistence.swift */,
 				AB59DF21271AD1B200B4A1B2 /* FirePerfect.xcdatamodeld */,

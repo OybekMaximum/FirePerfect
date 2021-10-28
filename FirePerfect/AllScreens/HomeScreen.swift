@@ -7,13 +7,13 @@
 
 import SwiftUI
 import Firebase
-import FirebaseDatabase
+
 
 
 struct HomeScreen: View {
+    
     @EnvironmentObject var session: SessionStore
     @ObservedObject var database = RealtimeStore()
-    
     @State var isLoading = false
     
     func doSignOut(){
@@ -29,18 +29,18 @@ struct HomeScreen: View {
         database.loadPosts {
             isLoading = false
             print(database.items.count)
+            }
         }
-    }
+    
     
     var body: some View {
         NavigationView{
             ZStack{
                 
                 List{
-                    
-                    ForEach(database.items, id:\.self) { item in
+//                    Text("HELLO")
+                    ForEach(database.items, id:\.self){ item in
                         ContactCell(contact: item)
-                    
                     }
                 }.listStyle(PlainListStyle())
                 
@@ -62,11 +62,14 @@ struct HomeScreen: View {
 
                 
             })
+            .navigationBarTitle("Contacts", displayMode: .inline)
             
         }.onAppear{
             apiContacts()
         }
-    }}
+    }
+    
+}
 
 struct HomeScreen_Previews: PreviewProvider {
     static var previews: some View {

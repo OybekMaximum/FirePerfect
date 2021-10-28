@@ -1,12 +1,16 @@
 import SwiftUI
 
 struct AddPostScreen: View {
+    @ObservedObject var database = RealtimeStore()
+    
     @State var firstname:String = ""
     @State var lastname:String = ""
-    @State var isLoading = false
     @State var phone:String = ""
+    
+    @State var isLoading = false
+    
     @Environment(\.presentationMode) var presentation
-    @ObservedObject var database = RealtimeStore()
+    
     
     
     func addNewPost(){

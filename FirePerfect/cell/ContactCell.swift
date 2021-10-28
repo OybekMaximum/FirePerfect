@@ -15,7 +15,9 @@ struct ContactCell: View {
     var body: some View {
         
         VStack(alignment: .leading){
+            if contact.firstname != nil {
             HStack{
+                
                 Text(contact.firstname!.uppercased())
                     .fontWeight(.bold).foregroundColor(Color.red)
                 Text(contact.lastname!.uppercased())
@@ -23,7 +25,9 @@ struct ContactCell: View {
                     .foregroundColor(Color.red)
             }
             Text(contact.phone!).padding(.top,5)
-
+            } else {
+             Text("Good Mood")
+            }
         }
     }
 }
